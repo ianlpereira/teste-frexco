@@ -7,6 +7,6 @@ services:
       context: teste-frexco
       dockerfile: ./Dockerfile
     environment:
-      NODE_ENV: production
+      NODE_ENV: development
     ports:
       - 7878:7878
